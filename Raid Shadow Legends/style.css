@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+}
+
+.parentElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topPic {
+  background-color: black;
+  width: 98%;
+}
+
+.bottomPart {
+  background-color: lightcyan;
+  height: 500px;
+}
+
+.middleDiv {
+  left: 360px;
+  top: 570px;
+  position: absolute;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  z-index: 4;
+  box-shadow: 1px 1px 15px black;
+}
+.label {
+  border-radius: 10px;
+}
+.bottomPart {
+  height: 200px;
+  background-color: blue;
+  width: 800px;
+}
+.middleDivPic {
+  margin: 17px;
+  height: 64px;
+  border-radius: 7px;
+}
+
+.middleDivH1 {
+  margin-bottom: 4px;
+  margin-top: 20px;
+  font-weight: 100;
+  margin-right: 575px;
+}
+
+.middleDivP {
+  display: inline;
+  margin: 0px;
+  color: rgb(205, 201, 201);
+}
+
+.appleLogo {
+  display: inline-block;
+  width: 45px;
+  margin-top: 25px;
+}
+
+.androidLogo {
+  display: inline-block;
+  width: 45px;
+  margin-left: 3px;
+}
+
+.downloadButton {
+  display: inline-block;
+  height: 50px;
+  color: whitesmoke;
+  background-color: rgb(255, 68, 0);
+  margin-left: 17px;
+  width: 155px;
+  font-size: 21px;
+  border-radius: 5px;
+  font-weight: 520;
+  margin-top: 21px;
+}
+
+.link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.bottomPart {
+  position: absolute;
+  top: 610px;
+  width: 98%;
+  height: 900px;
+  background-color: rgb(230, 230, 230);
+  z-index: -1;
+}
+.block {
+  display: block;
+}
+.d-ib {
+  display: inline-block;
+}
+.scrAndVid {
+  width: 1150px;
+  background-color: white;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+.h22 {
+  margin-left: 38px;
+}
+.vid1 {
+  width: 350px;
+  margin-left: 38px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.pic5 {
+  border-radius: 10px;
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+.pic6 {
+  border-radius: 10px;
+  margin-left: 17px;
+  margin-bottom: 20px;
+}
